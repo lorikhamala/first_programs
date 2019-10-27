@@ -1,0 +1,5 @@
+puts "How many dogs do you have?"
+dogs = gets.chomp
+puts "How many cats do you have?"
+cats= gets.chomp
+puts "So, you have #{dogs} and #{cats}. You have" + dogs.to_int + cats.to_int + " pets all together."
