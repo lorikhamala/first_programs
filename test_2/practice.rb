@@ -12,4 +12,6 @@ else puts "You're supposed to write 'A test!'"
 end
 puts "Oh, a test!"
 
-
+puts "What is your name?"
+name = gets.chomp
+puts "Hello, #{name}!"
